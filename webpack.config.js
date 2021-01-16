@@ -17,7 +17,7 @@ module.exports = function getConfig(options){
 
   // determine output file name
   var outputName = buildLibraryOutputName(libraryDesc, isWeb, isProd);
-  var outputFolder = isWeb ? 'dist' : 'lib';
+  var outputFolder = isWeb ? 'dist' : './';
 
   // get base config
   var config;

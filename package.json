@@ -1,6 +1,6 @@
 {
   "name": "3d-dungeon-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "3D dungeon generator supporting shafts and staircases",
   "main": "./index.js",
   "scripts": {
@@ -45,7 +45,7 @@
     "LICENSE",
     "README.md",
     "index.js",
-    "lib",
+    "src",
     "dist"
   ],
   "homepage": "https://github.com/SamHellawell/3d-dungeon-generator",
@@ -80,7 +80,7 @@
     "entry": "index.js",
     "dist-node": "index.js",
     "dist-web": "index.web.js",
-    "bundle-node": false
+    "bundle-node": true
   },
   "dependencies": {
     "delaunay": "^0.4.0",

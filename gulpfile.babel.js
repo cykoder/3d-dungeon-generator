@@ -59,7 +59,7 @@ gulp.task('lint-fix', () =>
 
 // Clean folder
 gulp.task('clean', () =>
-  del([`${libFolder}/**/*`])
+  del([`dist/**/*`, './index.js'])
 );
 
 // Webpack helper
